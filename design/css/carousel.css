@@ -1,0 +1,41 @@
+.carousel {
+  height: 500px;
+  margin-bottom: 40px;
+}
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  min-width: 100%;
+  /* height: 500px; */
+}
+
+.prev-icon{
+    background: url(../images/btnLeft.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 30px;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: initial;
+}
+
+.next-icon{
+    background: url(../images/btnRight.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 30px;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    right: initial;
+}
